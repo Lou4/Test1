@@ -11,6 +11,7 @@ public class NumberPow {
 
     public static int powNumber(int n){
         Log.d("mydbg", Integer.toString(n * n));
+        Log.e("Culonw","Chiappone");
         return n*n;
     }
 }
