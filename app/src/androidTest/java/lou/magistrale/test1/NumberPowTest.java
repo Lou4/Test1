@@ -1,0 +1,30 @@
+package lou.magistrale.test1;
+
+import android.test.suitebuilder.annotation.SmallTest;
+
+import junit.framework.TestCase;
+
+/**
+ * Created by lou on 13/04/15.
+ */
+public class NumberPowTest extends TestCase{
+    @Override
+    protected void setUp() throws Exception {
+        super.setUp();
+    }
+
+
+
+    @SmallTest
+    public void testNumberPow(){
+        int result  = NumberPow.powNumber(5);
+        assertEquals("FOOOO", 25, result);
+    }
+
+
+
+    @Override
+    protected void tearDown() throws Exception {
+        super.tearDown();
+    }
+}
