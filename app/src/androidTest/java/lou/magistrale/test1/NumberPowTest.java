@@ -1,6 +1,7 @@
 package lou.magistrale.test1;
 
 import android.test.suitebuilder.annotation.SmallTest;
+import android.util.Log;
 
 import junit.framework.TestCase;
 
@@ -18,6 +19,7 @@ public class NumberPowTest extends TestCase{
     @SmallTest
     public void testNumberPow(){
         int result  = NumberPow.powNumber(5);
+        Log.e("mydbg", "testNumberPow");
         assertEquals("FOOOO", 25, result);
     }
 
